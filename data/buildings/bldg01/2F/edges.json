@@ -1,0 +1,8 @@
+[
+  {"id": "E_P1_P2", "from": "P1", "to": "P2", "bidirectional": true, "length_m": 12.0, "waypoints_m": [], "width_m": 2.4, "kind": "corridor", "wheelchair_accessible": true, "door": null},
+  {"id": "E_P2_P3", "from": "P2", "to": "P3", "bidirectional": true, "length_m": 12.0, "waypoints_m": [], "width_m": 2.4, "kind": "corridor", "wheelchair_accessible": true, "door": null},
+  {"id": "E_P1_P5", "from": "P1", "to": "P5", "bidirectional": true, "length_m": 20.0, "waypoints_m": [[2.0, 2.0]], "width_m": 1.8, "kind": "corridor", "wheelchair_accessible": true, "door": null},
+  {"id": "E_P5_P3", "from": "P5", "to": "P3", "bidirectional": true, "length_m": 20.0, "waypoints_m": [[26.0, 2.0]], "width_m": 1.8, "kind": "corridor", "wheelchair_accessible": true, "door": null},
+  {"id": "E_P3_P4", "from": "P3", "to": "P4", "bidirectional": true, "length_m": 8.0, "waypoints_m": [], "width_m": 2.0, "kind": "corridor", "wheelchair_accessible": true, "door": null},
+  {"id": "E_P4_EXIT", "from": "P4", "to": "Exit_A", "bidirectional": true, "length_m": 4.0, "waypoints_m": [], "width_m": 1.2, "kind": "door", "wheelchair_accessible": false, "door": {"type": "방화문", "default_state": "closed_unlocked"}}
+]

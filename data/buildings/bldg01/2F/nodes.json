@@ -1,0 +1,8 @@
+[
+  {"id": "P1", "name": "서측 복도 끝 (엘리베이터 앞)", "type": "corridor", "pos_m": [2.0, 10.0], "plan_px": [140, 500], "panorama_id": "PANO_P1", "qr_ids": ["QR-2F-01"], "wheelchair_accessible": true, "tags": ["start_point"]},
+  {"id": "P2", "name": "중앙 복도 (201호 앞)", "type": "corridor", "pos_m": [14.0, 10.0], "plan_px": [380, 500], "panorama_id": "PANO_P2", "qr_ids": ["QR-2F-02"], "wheelchair_accessible": true, "tags": []},
+  {"id": "P3", "name": "동측 교차로", "type": "junction", "pos_m": [26.0, 10.0], "plan_px": [620, 500], "panorama_id": "PANO_P3", "qr_ids": ["QR-2F-03"], "wheelchair_accessible": true, "tags": ["junction"]},
+  {"id": "P4", "name": "출구 전 복도", "type": "corridor", "pos_m": [26.0, 18.0], "plan_px": [620, 340], "panorama_id": "PANO_P4", "qr_ids": ["QR-2F-04"], "wheelchair_accessible": true, "tags": []},
+  {"id": "P5", "name": "남측 우회 복도 (화장실 앞)", "type": "corridor", "pos_m": [14.0, 2.0], "plan_px": [380, 660], "panorama_id": "PANO_P5", "qr_ids": ["QR-2F-05"], "wheelchair_accessible": true, "tags": ["detour"]},
+  {"id": "Exit_A", "name": "동측 비상계단 출구", "type": "exit", "pos_m": [30.0, 18.0], "plan_px": [700, 340], "panorama_id": null, "qr_ids": [], "wheelchair_accessible": false, "tags": ["exit", "stairs_down"], "exit": {"leads_to": "1F 외부", "door_type": "방화문", "capacity_ppm": 60}}
+]
